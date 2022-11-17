@@ -1,0 +1,118 @@
+.quiz-name {
+    margin-top: 50px;
+    font-weight: bolder;
+    font-size: 40px;
+    color: blue;
+}
+
+.quiz-card {
+
+    background-color: rgb(41, 40, 37);
+    width: 1500px;
+    height: 400px;
+    margin-top: 30px;
+    border-radius: 5px;
+    margin-left: 10%;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.input-ans {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.input-two {
+    display: flex;
+
+}
+
+.icon-one {
+    height: 50px;
+    width: 50px;
+    color: white;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+.text {
+    width: 400px;
+    color: blue;
+    background-color: rgb(213, 213, 194);
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.opt {
+    display: inline-flex;
+
+}
+
+
+@media only screen and (max-width:588px) {
+    .quiz-name {
+        margin-top: 50px;
+        font-weight: bolder;
+        font-size: 20px;
+        color: blue;
+    }
+
+    .quiz-card {
+        background-color: rgb(41, 40, 37);
+        width: 400px;
+        height: 300px;
+        margin-top: 10px;
+        border-radius: 5px;
+        margin-left: 10%;
+        color: white;
+        font-size: 15px;
+        padding: 5px;
+
+    }
+
+    .input-ans {
+
+        margin-top: 50px;
+        margin-left: 10px;
+        font-size: 60px;
+    }
+
+    .input-two {
+        display: flex;
+
+    }
+
+    .icon-one {
+        height: 30px;
+        width: 30px;
+        color: white;
+        margin-left: 10%;
+        margin-top: 10px;
+    }
+
+    .text {
+        width: 200px;
+        color: blue;
+        background-color: rgb(213, 213, 194);
+        font-size: 15px;
+        border-radius: 5px;
+        padding: 5px;
+
+    }
+
+
+}
+
+@media only screen and (min-width: 688px) and (max-width:992px) {
+    .king {
+        margin-top: 10px;
+        margin-left: 38%;
+    }
+
+}

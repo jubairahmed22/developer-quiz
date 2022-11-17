@@ -1,0 +1,23 @@
+.shadow {
+    box-shadow: 10px 10px 8px 10px #888888;
+}
+
+.navbar a {
+    font-size: 30px;
+    text-decoration: none;
+    margin-right: 35px;
+    padding: 2px;
+    font-weight: 500;
+    transition: 0.3s;
+
+}
+
+.navbar a:hover {
+
+    color: white;
+    border-radius: 5px;
+}
+
+.background {
+    color: black;
+}

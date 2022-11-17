@@ -1,0 +1,43 @@
+.king {
+    margin-top: 10px;
+
+
+}
+
+.fonty {
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(174, 174, 252);
+}
+
+.linkBtn a {
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.linkBtn a:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+@media only screen and (max-width:588px) {
+    .king {
+        margin-top: 10px;
+        margin-left: 80px;
+    }
+
+
+}
+
+@media only screen and (min-width: 688px) and (max-width:992px) {
+    .king {
+        margin-top: 10px;
+        margin-left: 38%;
+    }
+
+}

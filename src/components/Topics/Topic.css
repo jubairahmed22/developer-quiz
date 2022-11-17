@@ -1,0 +1,29 @@
+.topic {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px;
+    padding: 20px;
+
+}
+
+@media only screen and (max-width:588px) {
+
+    .topic {
+        display: inline;
+        margin-top: 5px;
+        margin-left: 100px;
+
+
+    }
+}
+
+@media only screen and (min-width: 688px) and (max-width:992px) {
+    .topic {
+        display: inline;
+        margin-top: 5px;
+        margin-left: 100px;
+
+
+    }
+
+}

@@ -1,0 +1,52 @@
+.descript {
+    margin: 6%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.descript img {
+    width: 500px;
+    height: 300px;
+
+}
+
+@media only screen and (max-width:588px) {
+    .descript {
+        display: inline;
+        margin: 10%;
+    }
+
+    .descript img {
+        margin-top: 5%;
+        width: 300px;
+        height: 200px;
+
+
+    }
+
+    .descript h3 {
+        font-size: 20px;
+        margin: 5%;
+    }
+
+}
+
+@media only screen and (min-width: 688px) and (max-width:992px) {
+    .descript {
+        margin: 6%;
+        display: inline;
+        justify-content: space-between;
+    }
+
+    .descript img {
+        margin-top: 5%;
+        width: 500px;
+        height: 300px;
+
+    }
+
+    .descript h3 {
+
+        margin: 5%;
+    }
+}
